@@ -1,0 +1,73 @@
+.flex{
+    display: flex;
+    width: min-content;
+   
+   
+  }
+  
+  .flex >div {
+background-color:#cfc5fc; 
+  margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    border: 2px;
+    justify-content: space-around;
+    column-gap: 10px;
+align-items: stretch;
+border-radius: 20px;
+border-style:inset;
+flex-grow: 1;
+  }
+  .flex1 {
+    display: flex;
+    width: min-content;
+   
+  }
+  
+  .flex1 > div {
+    background-color:#cfc5fc;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    border: 2px inset
+    border-radius: 20px;
+        align-items: stretch;
+    
+  }
+  p{
+    font-size: smaller;
+    color:indigo;
+  }
+  a:link, a:visited {
+    background-color:darkorchid;
+    color:beige;
+    padding: 17px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .flex2 {
+    display: flex;
+    width: min-content;
+  }
+   
+  .flex2 > div {
+    background-color:#cfc5fc; 
+  margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    border: 2px;
+    justify-content: space-around;
+    column-gap: 10px;
+align-items: stretch;
+border-radius: 20px;
+border-style:inset;
+flex-grow: 1;
+    
+  }
+  .flex2>div img{
+    border-radius: 50%;
+  }
+  body{
+    background-image: url("https://img.freepik.com/free-photo/top-view-background-beautiful-white-grey-brown-cream-blue-background_140725-72219.jpg?w=2000");
+  }
